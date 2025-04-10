@@ -347,21 +347,32 @@
             
             
                 </script>
-<!-- AdnersonFerro.com.br widget -->
-<script type="text/javascript">
-    (function () {
-        var options = {
-            whatsapp: "+55(11)992660572", // WhatsApp number
-            call_to_action: "Agende seu atendimento", // Call to action
-            position: "right", // Position may be 'right' or 'left'
-        };
-        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-    })();
-</script>
-<!-- /AndersonFerro.com.br widget -->
+<&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"&gt;
+	&lt;style&gt;
+		.whatsapp-link {
+			position: fixed;
+			width: 60px;
+			height: 60px;
+			bottom: 40px;
+			right: 40px;
+			background-color: #25d366;
+			color: #fff;
+			border-radius: 50px;
+			text-align: center;
+			font-size: 30px;
+			box-shadow: 1px 1px 2px #888;
+			z-index: 1000;
+		}
+ 
+		.fa-whatsapp {
+			margin-top: 16px;
+		}
+	&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;a class="whatsapp-link" href="https://wa.me/5511992660572?text=Quero%20agendar%20um%20atendimento!" target="_blank"&gt;
+		&lt;i class="fa fa-whatsapp"&gt;&lt;/i&gt;
+	&lt;/a&gt;
 </body>
 
 </html>
